@@ -1,41 +1,42 @@
-.project-image {
-	width: 375px;
-	height: 275px;
-}
-
 .facebook {
 	width: 50px;
 	height: 50px;
+	margin: 15px;
 	fill: cornflowerblue;
 }
 
 .twitter {
 	width: 50px;
 	height: 50px;
+	margin: 15px;
 	fill: cornflowerblue;
 }
 
 .instagram {
 	width: 50px;
 	height: 50px;
+	margin: 15px;
 	fill: cornflowerblue;
 }
 
 .github {
 	width: 50px;
 	height: 50px;
+	margin: 15px;
 	fill: cornflowerblue;
 }
 
 .linkedin {
 	width: 50px;
 	height: 50px;
+	margin: 15px;
 	fill: cornflowerblue;
 }
 
 .email {
-	width: 20px;
-	height: 20px;
+	width: 40px;
+	height: 40px;
+	margin: 15px;
 	fill: cornflowerblue;
 }
 
@@ -43,4 +44,38 @@
 	width: 40px;
 	height: 40px;
 	fill: cornflowerblue;
+	margin-left: 5px;
+}
+
+.work-banner {
+	background-color: rgba(204, 4, 32, 0.3);
+	padding: 25px;
+}
+
+.about-banner {
+	background-color: rgba(204, 4, 32, 0.3);
+	padding: 25px;
+}
+
+.contact-banner {
+	background-color: rgba(61, 187, 196, 0.3);
+	padding: 25px;
+}
+
+.email-button {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 65px;
+	padding-right: 65px;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+
+.copyright {
+	margin-top: 20px;
+}
+
+.backtotop {
+	margin-top: 10px;
+	margin-bottom: 10px;
 }

@@ -1,0 +1,140 @@
+.intro-text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 56px;
+  color: rgba(201, 87, 22, 0.3);
+  font-family: 'Cormorant', serif;
+}
+
+.work-text,
+.work-header {
+  color: white;
+}
+
+.copyright {
+  margin-top: 20px;
+}
+
+.backtotop {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nav-item:hover {
+  border-bottom: 1px solid rgba(201, 87, 22, 0.3);
+}
+
+.facebook {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  fill: rgba(201, 87, 22, 0.3);
+}
+
+.twitter {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  fill: rgba(201, 87, 22, 0.3);
+}
+
+.instagram {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  fill: rgba(201, 87, 22, 0.3);
+}
+
+.github {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  fill: rgba(201, 87, 22, 0.3);
+}
+
+.linkedin {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  fill: rgba(201, 87, 22, 0.3);
+}
+
+.email {
+  width: 40px;
+  height: 40px;
+  margin: 15px;
+  fill: white;
+}
+
+.arrowup {
+  width: 40px;
+  height: 40px;
+  fill: rgba(201, 87, 22, 0.3);
+  margin-left: 5px;
+}
+
+.email-container {
+  margin-bottom: 30px;
+}
+
+.email-button {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 65px;
+  padding-right: 65px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.copyright {
+  margin-top: 20px;
+}
+
+.backtotop {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.html {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  fill: rgba(201, 87, 22, 0.3);
+}
+
+.css {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  fill: rgba(201, 87, 22, 0.3);
+}
+
+.javascript {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  fill: rgba(201, 87, 22, 0.3);
+}
+
+.sass {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  fill: rgba(201, 87, 22, 0.3);
+}
+
+.work-banner {
+  background-color: rgba(3, 156, 143, 0.575);
+  padding: 25px;
+}
+
+.about-banner {
+  background-color: rgba(201, 87, 22, 0.3);
+  padding: 25px;
+}
+
+.contact-banner {
+  background-color: rgba(201, 87, 22, 0.3);
+  padding: 25px;
+}
+/*# sourceMappingURL=styles.css.map */

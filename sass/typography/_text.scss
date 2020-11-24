@@ -1,0 +1,25 @@
+.intro-text {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 56px;
+	color: $intro-text-color;
+	font-family: 'Cormorant', serif;
+}
+
+.work-text,
+.work-header {
+	color: white;
+}
+
+.copyright {
+	margin-top: 20px;
+}
+
+.backtotop {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.nav-item:hover {
+	border-bottom: 1px solid $intro-text-color;
+}

@@ -2,64 +2,53 @@
 	width: 50px;
 	height: 50px;
 	margin: 15px;
-	fill: cornflowerblue;
+	fill: $theme-color-primary;
 }
 
 .twitter {
 	width: 50px;
 	height: 50px;
 	margin: 15px;
-	fill: cornflowerblue;
+	fill: $theme-color-primary;
 }
 
 .instagram {
 	width: 50px;
 	height: 50px;
 	margin: 15px;
-	fill: cornflowerblue;
+	fill: $theme-color-primary;
 }
 
 .github {
 	width: 50px;
 	height: 50px;
 	margin: 15px;
-	fill: cornflowerblue;
+	fill: $theme-color-primary;
 }
 
 .linkedin {
 	width: 50px;
 	height: 50px;
 	margin: 15px;
-	fill: cornflowerblue;
+	fill: $theme-color-primary;
 }
 
 .email {
 	width: 40px;
 	height: 40px;
 	margin: 15px;
-	fill: cornflowerblue;
+	fill: white;
 }
 
 .arrowup {
 	width: 40px;
 	height: 40px;
-	fill: cornflowerblue;
+	fill: $theme-color-primary;
 	margin-left: 5px;
 }
 
-.work-banner {
-	background-color: rgba(204, 4, 32, 0.3);
-	padding: 25px;
-}
-
-.about-banner {
-	background-color: rgba(204, 4, 32, 0.3);
-	padding: 25px;
-}
-
-.contact-banner {
-	background-color: rgba(61, 187, 196, 0.3);
-	padding: 25px;
+.email-container {
+	margin-bottom: 30px;
 }
 
 .email-button {
@@ -78,4 +67,32 @@
 .backtotop {
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+
+.html {
+	width: 30px;
+	height: 30px;
+	margin: 5px;
+	fill: $theme-color-primary;
+}
+
+.css {
+	width: 30px;
+	height: 30px;
+	margin: 5px;
+	fill: $theme-color-primary;
+}
+
+.javascript {
+	width: 30px;
+	height: 30px;
+	margin: 5px;
+	fill: $theme-color-primary;
+}
+
+.sass {
+	width: 30px;
+	height: 30px;
+	margin: 5px;
+	fill: $theme-color-primary;
 }

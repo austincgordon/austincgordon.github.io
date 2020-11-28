@@ -18,7 +18,7 @@
 
 .intro-image {
 	position: relative;
-	width: 100vw;
+	width: 100%;
 	height: 100vh;
 	background-image: url(/images/94205DF6-ED6D-4A56-B590-01D50F58755C.jpeg);
 	background-repeat: no-repeat;
@@ -28,9 +28,9 @@
 
 .bio-text {
 	position: absolute;
-	font-size: 10vw;
-	left: 50%;
-	right: 50%;
+	font-size: 2em;
+	left: 60%;
+	right: 40%;
 	top: 50%;
 	bottom: 50%;
 	margin: auto;
@@ -38,11 +38,11 @@
 
 .bio-subtext {
 	position: absolute;
-	font-size: 7vw;
-	left: 50%;
-	right: 50%;
-	top: 50%;
-	bottom: 50%;
+	font-size: 1em;
+	left: 60%;
+	right: 40%;
+	top: 58%;
+	bottom: 42%;
 	margin: auto;
 }
 

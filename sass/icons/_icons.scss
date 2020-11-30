@@ -38,6 +38,11 @@
 	height: 40px;
 	margin: 15px;
 	fill: white;
+	transition: transform 0.1s ease-in-out;
+}
+
+.email:hover {
+	fill: rgb(202, 202, 202);
 }
 
 .arrowup {
@@ -95,4 +100,8 @@
 	height: 30px;
 	margin: 5px;
 	fill: $theme-color-primary;
+}
+
+.icon:hover {
+	fill: rgb(99, 99, 99);
 }

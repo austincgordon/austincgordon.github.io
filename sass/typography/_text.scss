@@ -1,3 +1,7 @@
+html {
+	font-family: 'Ultra', serif;
+}
+
 .work-text,
 .work-header {
 	color: white;
@@ -22,7 +26,7 @@
 	height: 100vh;
 	background-image: url(/images/94205DF6-ED6D-4A56-B590-01D50F58755C.jpeg);
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: center center;
 	background-size: cover;
 }
 
@@ -65,4 +69,9 @@
 .link-text:hover {
 	color: rgba(236, 236, 236, 0.8);
 	border-bottom: 2px solid white;
+}
+
+.about-bio {
+	width: 65%;
+	margin: auto;
 }

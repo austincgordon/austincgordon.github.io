@@ -9,10 +9,20 @@ h5 {
   font-family: "Lora", serif;
 }
 
+.intro-image {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(/images/hero-image-austin.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
 .intro-heading {
   font-size: calc(1.5vw + 1.5vh + 2vmin);
   font-weight: 400;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
 }
 
 .heading-fade {
@@ -26,9 +36,9 @@ h5 {
 }
 
 .intro-subheading {
-  font-size: calc(0.6vw + 0.6vh + 1vmin);
+  font-size: calc(0.8vw + 0.8vh + 1vmin);
   font-weight: 400;
-  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
 }
 
 .about-header {
@@ -46,9 +56,19 @@ h5 {
   border-bottom: solid 1px rgba(255, 255, 255, 0.2);
 }
 
+.work-text {
+  width: 75vw;
+}
+
 .work-text,
 .work-header {
   color: white;
+}
+
+.contact-heading {
+  display: block;
+  margin: 0 auto;
+  width: 70vw;
 }
 
 .copyright {
@@ -58,20 +78,6 @@ h5 {
 .backtotop {
   margin-top: 10px;
   margin-bottom: 10px;
-}
-
-.nav-button:hover {
-  border-bottom: 1px solid rgba(201, 87, 22, 0.3);
-}
-
-.intro-image {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  background-image: url(/images/94205DF6-ED6D-4A56-B590-01D50F58755C.jpeg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
 }
 
 .work-body {
@@ -85,13 +91,6 @@ h5 {
 }
 
 .link-text {
-  color: white;
-  padding: 10px;
-  margin-top: 5px;
-  font-family: "Open Sans", sans-serif;
-}
-
-.navbar-brand {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -100,22 +99,12 @@ h5 {
   border-bottom: 2px solid white;
 }
 
+.navbar-brand {
+  font-family: "Open Sans", sans-serif;
+}
+
 .work-body {
   background: white;
-}
-
-.card {
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.card:hover {
-  -webkit-transform: translate(0px, -5px);
-          transform: translate(0px, -5px);
-  -webkit-box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.3), 0 14px 22px 0 rgba(0, 0, 0, 0.3);
-          box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.3), 0 14px 22px 0 rgba(0, 0, 0, 0.3);
 }
 
 .facebook {
@@ -158,21 +147,16 @@ h5 {
   height: 40px;
   margin: 15px;
   fill: white;
-  -webkit-transition: -webkit-transform 0.1s ease-in-out;
-  transition: -webkit-transform 0.1s ease-in-out;
-  transition: transform 0.1s ease-in-out;
-  transition: transform 0.1s ease-in-out, -webkit-transform 0.1s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
 }
 
 .email:hover {
   fill: #cacaca;
-}
-
-.arrowup {
-  width: 40px;
-  height: 40px;
-  fill: rgba(7, 7, 7, 0.801);
-  margin-left: 5px;
+  -webkit-transform: rotate(-15deg) scale(1.2);
+          transform: rotate(-15deg) scale(1.2);
 }
 
 .email-container {
@@ -190,6 +174,13 @@ h5 {
 
 .copyright {
   margin-top: 20px;
+}
+
+.arrowup {
+  width: 40px;
+  height: 40px;
+  fill: rgba(7, 7, 7, 0.801);
+  margin-left: 5px;
 }
 
 .backtotop {
@@ -296,5 +287,21 @@ h5 {
   background-color: rgba(7, 7, 7, 0.801);
   padding: 25px;
   width: 100vw;
+}
+
+.card {
+  -webkit-perspective: 800px;
+          perspective: 800px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card:hover {
+  -webkit-transform: translate(0px, -5px);
+          transform: translate(0px, -5px);
+  -webkit-box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 14px 22px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 14px 22px 0 rgba(0, 0, 0, 0.2);
 }
 /*# sourceMappingURL=styles.css.map */

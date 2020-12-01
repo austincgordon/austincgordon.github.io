@@ -1,35 +1,25 @@
 .facebook {
-	width: 50px;
-	height: 50px;
-	margin: 15px;
+	@include social-icon-size;
 	fill: $theme-color-primary;
 }
 
 .twitter {
-	width: 50px;
-	height: 50px;
-	margin: 15px;
+	@include social-icon-size;
 	fill: $theme-color-primary;
 }
 
 .instagram {
-	width: 50px;
-	height: 50px;
-	margin: 15px;
+	@include social-icon-size;
 	fill: $theme-color-primary;
 }
 
 .github {
-	width: 50px;
-	height: 50px;
-	margin: 15px;
+	@include social-icon-size;
 	fill: $theme-color-primary;
 }
 
 .linkedin {
-	width: 50px;
-	height: 50px;
-	margin: 15px;
+	@include social-icon-size;
 	fill: $theme-color-primary;
 }
 
@@ -38,18 +28,13 @@
 	height: 40px;
 	margin: 15px;
 	fill: white;
-	transition: transform 0.1s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	transform-origin: 50% 50%;
 }
 
 .email:hover {
 	fill: rgb(202, 202, 202);
-}
-
-.arrowup {
-	width: 40px;
-	height: 40px;
-	fill: $theme-color-primary;
-	margin-left: 5px;
+	transform: rotate(-15deg) scale(1.2);
 }
 
 .email-container {
@@ -69,36 +54,35 @@
 	margin-top: 20px;
 }
 
+.arrowup {
+	width: 40px;
+	height: 40px;
+	fill: $theme-color-primary;
+	margin-left: 5px;
+}
+
 .backtotop {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
 .html {
-	width: 30px;
-	height: 30px;
-	margin: 5px;
+	@include dev-icon-size;
 	fill: $theme-color-primary;
 }
 
 .css {
-	width: 30px;
-	height: 30px;
-	margin: 5px;
+	@include dev-icon-size;
 	fill: $theme-color-primary;
 }
 
 .javascript {
-	width: 30px;
-	height: 30px;
-	margin: 5px;
+	@include dev-icon-size;
 	fill: $theme-color-primary;
 }
 
 .sass {
-	width: 30px;
-	height: 30px;
-	margin: 5px;
+	@include dev-icon-size;
 	fill: $theme-color-primary;
 }
 

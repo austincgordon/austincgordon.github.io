@@ -1,13 +1,25 @@
 // Fonts
-
 $heading-font: 'Lora', serif;
 $body-font: 'Open Sans', sans-serif;
 
 // Colors
-$intro-text-color: rgba(201, 87, 22, 0.3);
 $theme-color-primary: rgba(7, 7, 7, 0.801);
 $theme-color-secondary: rgb(0, 0, 0);
+
+// Sizing
+@mixin social-icon-size {
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+}
+
+@mixin dev-icon-size {
+	width: 30px;
+	height: 30px;
+	margin: 5px;
+}
 
 @import './typography/text';
 @import './icons/icons';
 @import './banners/banners';
+@import './cards/cards';

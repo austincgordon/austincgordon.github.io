@@ -4,19 +4,20 @@ const introText = introHeading.textContent;
 const subText = subHeading.textContent;
 const splitHeading = introText.split('');
 const splitSub = subText.split('');
+const card = document.querySelectorAll('.card');
 introHeading.textContent = '';
 subHeading.textContent = '';
 
 /* Fade Text Function */
 
-function fadeIn(originalText, splitText) {
+function fadeIn(originalText, splitText, time) {
 	for (let i = 0; i < splitText.length; i++) {
 		originalText.innerHTML +=
 			'<span class="heading-fade">' + splitText[i] + '</span>';
 	}
 
 	let char = 0;
-	let timer = setInterval(onTick, 50);
+	let timer = setInterval(onTick, time);
 
 	function onTick() {
 		const fadeText = originalText.querySelectorAll('.heading-fade')[char];
@@ -35,6 +36,12 @@ function fadeIn(originalText, splitText) {
 }
 
 // Calls Fade for Each Section on Hero Image Independently
+fadeIn(introHeading, splitHeading, 70);
+fadeIn(subHeading, splitSub, 65);
 
-fadeIn(introHeading, splitHeading);
-fadeIn(subHeading, splitSub);
+/* Scroll Reveal Function */
+
+ScrollReveal().reveal(card, {
+	delay: 300,
+	easing: 'ease-in-out',
+});

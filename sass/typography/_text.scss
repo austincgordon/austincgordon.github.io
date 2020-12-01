@@ -10,13 +10,24 @@ h5 {
 }
 
 .intro-heading {
-	font-size: calc(2vw + 2vh + 2vmin);
+	font-size: calc(1.5vw + 1.5vh + 2vmin);
 	font-weight: 400;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.heading-fade {
+	opacity: 0;
+	transition: opacity 0.4s ease-in-out;
+}
+
+.fade-end {
+	opacity: 1;
 }
 
 .intro-subheading {
 	font-size: calc(0.6vw + 0.6vh + 1vmin);
 	font-weight: 400;
+	text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
 }
 
 .about-header {
@@ -93,11 +104,11 @@ h5 {
 }
 
 .card {
-	transition: all 0.3s ease-in-out;
+	transition: all 0.2s ease-in-out;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card:hover {
 	transform: translate(-0px, -5px);
-	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 20px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.3), 0 14px 22px 0 rgba(0, 0, 0, 0.3);
 }

@@ -10,13 +10,25 @@ h5 {
 }
 
 .intro-heading {
-  font-size: calc(2vw + 2vh + 2vmin);
+  font-size: calc(1.5vw + 1.5vh + 2vmin);
   font-weight: 400;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.heading-fade {
+  opacity: 0;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.fade-end {
+  opacity: 1;
 }
 
 .intro-subheading {
   font-size: calc(0.6vw + 0.6vh + 1vmin);
   font-weight: 400;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
 }
 
 .about-header {
@@ -93,8 +105,8 @@ h5 {
 }
 
 .card {
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -102,8 +114,8 @@ h5 {
 .card:hover {
   -webkit-transform: translate(0px, -5px);
           transform: translate(0px, -5px);
-  -webkit-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 20px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 20px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.3), 0 14px 22px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.3), 0 14px 22px 0 rgba(0, 0, 0, 0.3);
 }
 
 .facebook {
@@ -217,6 +229,57 @@ h5 {
   fill: #636363;
 }
 
+.hvr-sweep-to-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 1 1 1px rgba(0, 0, 0, 0);
+          box-shadow: 1 1 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.hvr-sweep-to-right:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(7, 7, 7, 0.801);
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.hvr-sweep-to-right:hover,
+.hvr-sweep-to-right:focus,
+.hvr-sweep-to-right:active {
+  color: white;
+}
+
+.hvr-sweep-to-right:hover:before,
+.hvr-sweep-to-right:focus:before,
+.hvr-sweep-to-right:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
 .work-banner {
   background-color: black;
   padding: 25px;
@@ -226,10 +289,12 @@ h5 {
 .about-banner {
   background-color: rgba(7, 7, 7, 0.801);
   padding: 25px;
+  width: 100vw;
 }
 
 .contact-banner {
   background-color: rgba(7, 7, 7, 0.801);
   padding: 25px;
+  width: 100vw;
 }
 /*# sourceMappingURL=styles.css.map */

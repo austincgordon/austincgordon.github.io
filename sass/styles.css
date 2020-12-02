@@ -1,3 +1,26 @@
+.intro-image {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(/images/hero-image-austin.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.about-image {
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+  height: 75%;
+  min-width: 275px;
+  min-height: 275px;
+  max-width: 800px;
+  max-height: 800px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 h4,
 p {
   font-family: "Open Sans", sans-serif;
@@ -9,14 +32,8 @@ h5 {
   font-family: "Lora", serif;
 }
 
-.intro-image {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  background-image: url(/images/hero-image-austin.jpeg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+.navbar {
+  background-color: rgba(66, 66, 66, 0.164);
 }
 
 .intro-heading {
@@ -47,8 +64,9 @@ h5 {
 }
 
 .about-bio {
-  text-align: center;
-  width: 75vw;
+  width: 70%;
+  min-width: 275px;
+  max-width: 800px;
 }
 
 .work-header {
@@ -57,7 +75,9 @@ h5 {
 }
 
 .work-text {
-  width: 75vw;
+  width: 70%;
+  min-width: 275px;
+  max-width: 800px;
 }
 
 .work-text,
@@ -68,7 +88,9 @@ h5 {
 .contact-heading {
   display: block;
   margin: 0 auto;
-  width: 70vw;
+  width: 70%;
+  min-width: 275px;
+  max-width: 800px;
 }
 
 .copyright {
@@ -104,7 +126,7 @@ h5 {
 }
 
 .work-body {
-  background: white;
+  background: rgba(163, 163, 163, 0.281);
 }
 
 .facebook {

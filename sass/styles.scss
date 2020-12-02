@@ -5,6 +5,7 @@ $body-font: 'Open Sans', sans-serif;
 // Colors
 $theme-color-primary: rgba(7, 7, 7, 0.801);
 $theme-color-secondary: rgb(0, 0, 0);
+$theme-color-third: rgba(163, 163, 163, 0.281);
 
 // Sizing
 @mixin social-icon-size {
@@ -19,6 +20,7 @@ $theme-color-secondary: rgb(0, 0, 0);
 	margin: 5px;
 }
 
+@import './images/images';
 @import './typography/text';
 @import './icons/icons';
 @import './banners/banners';

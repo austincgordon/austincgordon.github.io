@@ -40,9 +40,16 @@ h5 {
 }
 
 .about-bio {
-	width: 70%;
-	min-width: 275px;
-	max-width: 800px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.about-section {
+	text-align: center;
+	max-width: 90%;
+	margin-top: 15px;
 }
 
 .work-header {
@@ -103,4 +110,25 @@ h5 {
 
 .work-body {
 	background: $theme-color-third;
+}
+
+@media (min-width: 1024px) {
+	.about-bio {
+		display: flex;
+		margin: auto;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		width: 75%;
+	}
+	.about-section {
+		font-size: 21px;
+		margin-left: 15px;
+		width: 35%;
+	}
+	.about-image {
+		margin-right: 15px;
+		min-width: 450px;
+		min-height: 450px;
+	}
 }

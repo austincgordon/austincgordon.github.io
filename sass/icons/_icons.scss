@@ -28,13 +28,11 @@
 	height: 40px;
 	margin: 15px;
 	fill: white;
-	transition: all 0.5s ease-in-out;
-	transform-origin: 50% 50%;
+	transition: fill 0.3s ease-in-out;
 }
 
 .email:hover {
 	fill: rgb(202, 202, 202);
-	transform: rotate(-15deg) scale(1.2);
 }
 
 .email-container {
@@ -82,6 +80,16 @@
 }
 
 .sass {
+	@include dev-icon-size;
+	fill: $theme-color-primary;
+}
+
+.material {
+	@include dev-icon-size;
+	fill: $theme-color-primary;
+}
+
+.react {
 	@include dev-icon-size;
 	fill: $theme-color-primary;
 }

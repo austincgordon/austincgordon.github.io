@@ -9,14 +9,14 @@
 }
 
 .about-image {
-  display: block;
-  margin: 0 auto;
+  display: inline-block;
   width: 75%;
   height: 75%;
-  min-width: 275px;
-  min-height: 275px;
-  max-width: 800px;
-  max-height: 800px;
+  margin: 15px 0;
+  min-width: 250px;
+  min-height: 250px;
+  max-width: 500px;
+  max-height: 500px;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -64,9 +64,25 @@ h5 {
 }
 
 .about-bio {
-  width: 70%;
-  min-width: 275px;
-  max-width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-section {
+  text-align: center;
+  max-width: 90%;
+  margin-top: 15px;
 }
 
 .work-header {
@@ -129,6 +145,36 @@ h5 {
   background: rgba(163, 163, 163, 0.281);
 }
 
+@media (min-width: 1024px) {
+  .about-bio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 75%;
+  }
+  .about-section {
+    font-size: 21px;
+    margin-left: 15px;
+    width: 35%;
+  }
+  .about-image {
+    margin-right: 15px;
+    min-width: 450px;
+    min-height: 450px;
+  }
+}
+
 .facebook {
   width: 50px;
   height: 50px;
@@ -169,16 +215,12 @@ h5 {
   height: 40px;
   margin: 15px;
   fill: white;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-  -webkit-transform-origin: 50% 50%;
-          transform-origin: 50% 50%;
+  -webkit-transition: fill 0.3s ease-in-out;
+  transition: fill 0.3s ease-in-out;
 }
 
 .email:hover {
   fill: #cacaca;
-  -webkit-transform: rotate(-15deg) scale(1.2);
-          transform: rotate(-15deg) scale(1.2);
 }
 
 .email-container {
@@ -232,6 +274,20 @@ h5 {
 }
 
 .sass {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  fill: rgba(7, 7, 7, 0.801);
+}
+
+.material {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  fill: rgba(7, 7, 7, 0.801);
+}
+
+.react {
   width: 30px;
   height: 30px;
   margin: 5px;
